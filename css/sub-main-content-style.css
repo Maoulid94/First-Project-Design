@@ -1,0 +1,87 @@
+/* ------------- Sub main content ---------------- */
+.main-post-container  {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background:#b6cfd6;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+  }
+  .both-class {
+    margin-top: 20px;
+    /* background: #b6cfd6; */
+  }
+  .user-profile {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .user-profile img {
+    height: 50px;
+    margin: 0px 1rem;
+  }
+  /* .color-like-comment-share {
+    background: yellow;
+    border: 1px solid red;
+  } */
+  .post-text-container {
+    margin: 10px 0px 0px 7px;
+  }
+  
+  .post-img-container img{
+    width: 100%;
+  }
+  .post-like-comment {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+    margin: 15px 8px;
+    /* background: #b6cfd6; */
+  }
+  .post-like-comment span {
+    margin-bottom: 6px;
+  }
+  .post-like-comment-share {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #b6cfd6; */
+  }
+  .like{
+    padding-bottom: 1rem;
+  }
+  .like img {
+    width: 1.5rem;
+  }
+  .like span{
+  padding-left: 1rem;
+  }
+  .comment{
+    padding-bottom: 1rem;
+  }
+  .comment img {
+    width: 1.5rem;
+  }
+  .comment span{
+    padding-left: 1rem;
+  }
+  .share{
+    padding-bottom: 1rem;
+  }
+  .share span{
+    padding-left: 1rem;
+  }
+  .share img {
+    width: 1.5rem;
+  }
+  /* ----------------- 1 -------------------- */
+  .main-post-container-1{
+    background: #b6cfd6;
+  }
+  .main-post-container-2{
+    background: #b6cfd6;
+  }
+  .main-post-container-3{
+    background: #b6cfd6;
+  }

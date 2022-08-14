@@ -1,0 +1,33 @@
+/*-----------  Main block ------------*/
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    gap: 2rem;
+  }
+  .left-sidebar {
+    width:22%;
+    background: #b6cfd6;
+    /* flex-basis: 5%; */
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    border-radius: 5px;
+  }
+  .right-sidebar {
+    width: 20%;
+    height: 1000%;
+    background: #b6cfd6;
+    /* flex-basis: 30%; */
+    position: sticky;
+    top: 70px;
+    border-radius: 5px;
+    /* align-self: flex-start; */
+  }
+  .main-content {
+    width: 50%;
+    /* flex-basis: 40%; */
+    border-radius: 5px;
+    background: #303b3d;
+  }
