@@ -36,20 +36,35 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #f1f1f1;
-    margin: 15px 8px;
     /* background: #b6cfd6; */
+    padding: 0 1rem;
   }
   .post-like-comment span {
     margin-bottom: 6px;
   }
   .post-like-comment-share {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0.5rem;
+
     /* background: #b6cfd6; */
   }
+  .like,.comment,.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0.5rem;
+  }
+  .like:hover,.comment:hover,.share:hover{
+    background-color:#eeb61ce8;
+  }
   .like{
-    padding-bottom: 1rem;
+    width: 33%;
   }
   .like img {
     width: 1.5rem;
@@ -58,7 +73,7 @@
   padding-left: 1rem;
   }
   .comment{
-    padding-bottom: 1rem;
+    width: 34%;
   }
   .comment img {
     width: 1.5rem;
@@ -67,7 +82,7 @@
     padding-left: 1rem;
   }
   .share{
-    padding-bottom: 1rem;
+    width: 33%;
   }
   .share span{
     padding-left: 1rem;
